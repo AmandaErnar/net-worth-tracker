@@ -2,6 +2,12 @@
   "name": "net-worth-tracker",
   "version": "0.1.0",
   "main": "public/electron.js",
+  "description": "A simple tracking application",
+  "author": "Amanda Ernar",
+  "build": {
+    "appId": "net-worth-tracker.menu"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",

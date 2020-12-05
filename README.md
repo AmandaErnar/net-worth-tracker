@@ -10,6 +10,8 @@ Store user input inside database
 
 Finish packaging a "Hello World!" application w/ Electron
 
+Sign the app
+
 Create User Interface
 
 Convert to mobile w/ Ionic
