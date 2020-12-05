@@ -10,6 +10,7 @@ scripts/flow/*/.flowconfig
 _SpecRunner.html
 __benchmarks__
 build/
+dist/
 remote-repo/
 coverage/
 .module-cache
@@ -59,7 +60,6 @@ packages/react-devtools-scheduling-profiler/dist
 *.vcxproj.user
 *.xcodeproj
 /.idea/
-/dist/
 /external_binaries/
 /out/
 /vendor/.gclient
