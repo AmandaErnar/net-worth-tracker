@@ -8,10 +8,10 @@ Store user input inside database
 
 ## Gameplan
 
-1: Select tools that will last (frontend, backend)
+Finish packaging a "Hello World!" application w/ Electron
 
-2: Package a "Hello World!" application
+Create User Interface
 
-3: Plan and create user interface
+Convert to mobile w/ Ionic
 
-4: Publish
+Publish!
