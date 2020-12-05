@@ -1,5 +1,10 @@
-# React
+# ==============================================================================
+#
+# ==============================================================================
 
+# ==============================================================================
+# React
+# ==============================================================================
 .DS_STORE
 node_modules
 scripts/flow/*/.flowconfig
@@ -10,7 +15,6 @@ scripts/flow/*/.flowconfig
 _SpecRunner.html
 __benchmarks__
 build/
-dist/
 remote-repo/
 coverage/
 .module-cache
@@ -40,8 +44,9 @@ packages/react-devtools-inline/dist
 packages/react-devtools-shell/dist
 packages/react-devtools-scheduling-profiler/dist
 
+# ==============================================================================
 # Electron
-
+# ==============================================================================
 .DS_Store
 .env
 .gclient_done
@@ -60,6 +65,7 @@ packages/react-devtools-scheduling-profiler/dist
 *.vcxproj.user
 *.xcodeproj
 /.idea/
+/dist/
 /external_binaries/
 /out/
 /vendor/.gclient
@@ -113,7 +119,9 @@ ts-gen
 # Used to accelerate builds after sync
 patches/mtime-cache.json
 
+# ==============================================================================
 # create-react-app
+# ==============================================================================
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
