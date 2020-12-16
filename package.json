@@ -1,56 +1,26 @@
 {
   "name": "net-worth-tracker",
-  "version": "0.1.0",
-  "description": "Hello world",
-  "author": "Amanda Ernar",
-  "main": "public/electron.js",
-  "build": {
-    "appId": "display.menu"
-  },
-  "homepage": "./",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.3.0",
-    "cross-env": "^7.0.3",
-    "electron-is-dev": "^1.2.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
+  "version": "1.0.0",
+  "description": "A simple tracking application",
+  "main": "main.js",
   "scripts": {
-    "react-start": "react-scripts start",
-    "react-build": "react-scripts build",
-    "react-test": "react-scripts test",
-    "react-eject": "react-scripts eject",
-    "electron-build": "electron-builder",
-    "build": "npm run react-build && npm run electron-build",
-    "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmandaErnar/net-worth-tracker.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "keywords": [],
+  "author": "Amanda Ernar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmandaErnar/net-worth-tracker/issues"
   },
+  "homepage": "https://github.com/AmandaErnar/net-worth-tracker#readme",
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "electron": "^11.0.3",
-    "electron-builder": "^22.9.1",
-    "wait-on": "^5.2.0"
+    "electron": "^11.1.0"
+  },
+  "dependencies": {
+    "electron-packager": "^15.2.0"
   }
 }
